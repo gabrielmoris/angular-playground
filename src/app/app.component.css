@@ -1,0 +1,20 @@
+ul,
+li,
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font: bold;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+nav {
+  background-color: beige;
+  padding: 1rem;
+}
