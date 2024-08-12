@@ -1,3 +1,4 @@
+import { UsefactoryInjectionComponent } from './usefactory-injection/usefactory-injection.component';
 import { PropertyInjectionComponent } from './property-injection/property-injection.component';
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -9,6 +10,7 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'ci', component: ConstructorInjectionComponent },
   { path: 'pi', component: PropertyInjectionComponent },
+  { path: 'ui', component: UsefactoryInjectionComponent },
   { path: 'state', component: StateManagementComponent },
   { path: 'counter', component: CounterComponent },
 ];

@@ -8,3 +8,7 @@ export class DataService {
     return 'Some data comming from data.service.ts';
   }
 }
+
+export function dataServiceFactory() {
+  return new DataService();
+}
